@@ -1,12 +1,21 @@
 body{
     background-color: white;
 }
+
 .form-left{
     height: 100%; 
     width: 50%;
     background-color: rgb(20, 148, 187); 
     float: left;
     border-radius: 50px;
+    text-overflow: ellipsis; 
+    overflow: hidden;
+    box-shadow: -10px -10px 10px gray;
+}
+.btn1{
+    position: relative;
+    left: 5%;
+    margin-bottom: 10%;
 }
 .form-right{
     height: 100%;
@@ -14,4 +23,7 @@ body{
     background-color: white;
     float: right;
     border-radius: 50px;
-}
+    text-overflow: ellipsis; 
+    overflow: hidden;
+    box-shadow: 10px 10px 10px gray;
+} 
