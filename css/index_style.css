@@ -1,3 +1,17 @@
 body{
-    background-color: aquamarine;
+    background-color: white;
+}
+.form-left{
+    height: 100%; 
+    width: 50%;
+    background-color: rgb(20, 148, 187); 
+    float: left;
+    border-radius: 50px;
+}
+.form-right{
+    height: 100%;
+    width: 50%; 
+    background-color: white;
+    float: right;
+    border-radius: 50px;
 }
